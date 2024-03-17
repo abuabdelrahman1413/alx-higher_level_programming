@@ -5,8 +5,8 @@ if __name__ == "__main__":
     if argc < 1:
         print("{} argunments.".format(argc))
     elif argc == 1:
-        print("{} argunment".format(argc))
+        print("{} argunment:".format(argc))
     else:
-        print("{} argunments.".format(argc))
+        print("{} argunments:".format(argc))
     for counter in range(1, argc + 1):
         print("{}: {:s}".format(counter, argv[counter]))
