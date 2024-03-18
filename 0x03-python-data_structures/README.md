@@ -1,49 +1,23 @@
-0x03. Python - Data Structures: Lists, Tuples
+# 0x03. Python - Data Structures: Lists, Tuples
+### I executed 12-switch.py using `chmod u+x 12-switch.py` for the checker to successfully check.
 
-This project explores fundamental data structures in Python: lists and tuples.
-Project Description
-
-    Lists are mutable, ordered sequences of elements. They can store elements of various data types and can be dynamically modified.
-    Tuples are immutable, ordered sequences of elements. They resemble lists but cannot be changed after creation.
-
-This project implements exercises to solidify your understanding of these data structures.
-Learning Objectives
-
-By working on this project, you will:
-
-    Grasp the creation and manipulation of lists in Python.
-    Understand how to access and modify elements within lists.
-    Explore common list operations like slicing, concatenation, and iteration.
-    Recognize the use cases and properties of immutable tuples.
-    Practice working with different data types within lists and tuples.
-
-Prerequisites
-
-A basic understanding of Python programming is recommended. This includes familiarity with variables, data types, operators, and control flow statements.
-Getting Started
-
-    Clone or download this repository.
-    Open a Python IDE or code editor.
-    Navigate to the project directory.
-    Begin working on the provided exercises.
-
-Exercises
-
-This project includes exercises that will challenge you to:
-
-    Create lists containing various data types.
-    Access elements using indexing and slicing.
-    Modify lists through operations like insertion, deletion, and concatenation.
-    Iterate through lists using loops.
-    Work with tuples and understand their immutability.
-
-Additional Resources
-
-    https://docs.python.org/3/tutorial/datastructures.html ([Python Documentation - Lists])
-    https://docs.python.org/3/c-api/tuple.html ([Python Documentation - Tuples])
-    https://www.w3schools.com/python/python_lists.asp ([W3Schools - Python Lists])
-    https://www.tutorialspoint.com/data_structures_algorithms/index.htm ([Tutorialspoint - Data Structures in Python])
-
-Feel free to explore further!
-
-This project provides a starting point for your exploration of data structures in Python. The provided resources offer further explanation and examples.
+## Table of contents
+Files | Description
+----- | -----------
+[0-print_list_integer.py](./0-print_list_integer.py) | Python function that prints all integers of a list
+[1-element_at.py](./1-element_at.py) | Python function that retrieves an element from a list like in C
+[2-replace_in_list.py](./2-replace_in_list.py) | Python function that replaces an element of a list at a specific position (like in C)
+[3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py) | Python function that prints all integers of a list, in reverse order
+[4-new_in_list.py](./4-new_in_list.py) | Python function that replaces an element in a list at a specific position without modifying the original list (like in C)
+[5-no_c.py](./5-no_c.py) | Python function that removes all characters c and C from a string
+[6-print_matrix_integer.py](./6-print_matrix_integer.py) | Python function that prints a matrix of integers
+[7-add_tuple.py](./7-add_tuple.py) | Python function that adds 2 tuples
+[8-multiple_returns.py](./8-multiple_returns.py) | Python function that returns a tuple with the length of a string and its first character
+[9-max_integer.py](./9-max_integer.py) | Python function that finds the biggest integer of a list
+[10-divisible_by_2.py](./10-divisible_by_2.py) | Python function that finds all multiples of 2 in a list
+[11-delete_at.py](./11-delete_at.py) | Python function that deletes the item at a specific position in a list
+[12-switch.py](./12-switch.py) | Python program that completes source code in order to switch value of a and b
+[13-is_palindrome.c](./13-is_palindrome.c) | C program that checks if a singly linked list is a palindrome
+[lists.h](./lists.h) | Header file for the C program
+[100-print_python_list_info.c](./100-print_python_list_info.c) | C function to compile in a shared library that prints info on a Python list
+[100-test_lists.py](./100-test_lists.py) | Python script to test the C function above.
