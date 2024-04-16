@@ -3,14 +3,6 @@
 
 
 def read_file(filename=""):
-    """
-    Reads a text file (UTF-8) and prints its contents to stdout.
-
-    Args:
-      filename: The path to the text file.
-    """
-
+    """Print the contents of a UTF8 text file to stdout."""
     with open(filename, encoding="utf-8") as f:
-        # Read all lines at once and print them
-        contents = f.read()
-        print(contents, end="")
+        print(f.read(), end="")
