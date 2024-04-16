@@ -14,7 +14,3 @@ def read_file(filename=""):
         # Read all lines at once and print them
         contents = f.read()
         print(contents, end="")
-
-
-# Example usage
-read_file("/home/mohammed/Projects/alx-higher_level_programming/0x0B-python-input_output/my_file.txt")
