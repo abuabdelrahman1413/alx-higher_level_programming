@@ -75,7 +75,7 @@ class Rectangle(Base):
         shape = "\n" * self.y + \
             (" " * self.x + "#" * self.width + "\n") * self.height
 
-        print(shape)
+        print(shape, end="")
 
     def __str__(self):
         """Return the print() and str() representation of the Rectangle."""
