@@ -1,6 +1,6 @@
 -- This SQL code creates a new table called 'second_table' and then populates it with some initial data.
 -- Create the 'second_table' with columns for id, name, and score.
-CREATE TABLE second_table (
+CREATE TABLE IF NOT EXISTS second_table (
     id INT PRIMARY KEY,  -- 'id' is an integer and the primary key of the table, ensuring each row has a unique identifier.
     name VARCHAR(256),   -- 'name' is a string that can hold up to 256 characters.
     score INT            -- 'score' is an integer value.
