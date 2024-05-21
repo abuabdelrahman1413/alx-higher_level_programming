@@ -2,4 +2,4 @@
 -- This SQL statement lists all tables available in the specified database.
 -- The database name is passed as an argument to the script.
 
-SHOW TABLES FROM $1;
+SHOW TABLES;
