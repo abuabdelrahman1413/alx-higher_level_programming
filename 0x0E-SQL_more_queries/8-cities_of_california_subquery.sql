@@ -2,7 +2,7 @@
 USE hbtn_0d_usa;
 
 -- Select the 'name' column from the 'cities' table
-SELECT name, id 
+SELECT id, name
 -- Filter the cities based on their 'state_id'
 FROM cities 
 -- Where the 'state_id' matches the 'id' of the state named 'California'
