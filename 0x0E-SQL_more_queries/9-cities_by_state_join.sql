@@ -1,11 +1,3 @@
--- Select the database to work with
-USE `hbtn_0d_usa`;
-
--- Select the desired columns from the 'cities' and 'states' tables
-SELECT c.id, c.name AS city_name, s.name AS state_name
--- Join the 'cities' and 'states' tables based on the 'state_id' relationship
-FROM cities c
-JOIN states s ON c.state_id = s.id -- This JOIN clause combines rows from 'cities' and 'states' tables
-                                  -- based on the matching 'state_id' in 'cities' and 'id' in 'states'
--- Order the results in ascending order based on the 'id' column of the 'cities' table
-ORDER BY c.id ASC;
+-- lists all cities contained in the database hbtn_0d_usa
+-- lists all rows of a particular column in a database
+SELECT cities.id, cities.name, states.name FROM cities LEFT JOIN states ON states.id = cities.state_id ORDER BY cities.id;
