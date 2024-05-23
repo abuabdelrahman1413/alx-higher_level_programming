@@ -1,5 +1,4 @@
 -- Select the database to work with
-USE hbtn_0d_usa;
 
 -- Select the 'name' column from the 'cities' table
 SELECT id, name
