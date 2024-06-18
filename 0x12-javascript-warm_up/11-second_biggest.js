@@ -7,5 +7,5 @@ if (numbers.length < 2) {
   console.log(0);
 } else {
   numbers.sort();
-  console.log(numbers[numbers.length - 2]);
+  console.log(parseInt(numbers[numbers.length - 2]));
 }
