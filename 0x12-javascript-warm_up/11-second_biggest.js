@@ -9,5 +9,5 @@ if (numbers.length < 2) {
   console.log(0);
 } else {
   numbers.sort();
-  console.log(numbers[numbers.length - 1]);
+  console.log(numbers[numbers.length - 2]);
 }
