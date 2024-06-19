@@ -3,10 +3,9 @@
 const list = require('./100-data'); // Import the list array from 100-data.js
 
 // Using map to compute a new array where each element is the original element multiplied by its index
-const newList = list.map((value, index) => value * index);
 
 // Print the original list
 console.log(list);
 
 // Print the new computed list
-console.log(newList);
+console.log(list.map((value, index) => value * index));
