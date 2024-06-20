@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""  lists all states from the database hbtn_0e_0_usa """
+"""script that lists all states with a name starting with N
+(upper N) from the database hbtn_0e_0_usa"""
+
 import MySQLdb
 import sys
 
@@ -8,11 +10,11 @@ if __name__ == "__main__":
         host="localhost",
         user=sys.argv[1],
         passwd=sys.argv[2],
-        db=sys.argv[3],  # Corrected keyword argument
+        db=sys.argv[3],
         port=3306,
     )
     cur = mysql_db.cursor()
-    cur.execute("SELECT * FROM states")
+    cur.execute("SELECT * FROM states WHERE name LIKE 'N%'")
     rows = cur.fetchall()
     for row in rows:
         print(row)
