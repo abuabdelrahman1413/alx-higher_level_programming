@@ -13,7 +13,9 @@ if __name__ == "__main__":
     cur = db.cursor()
     
     # Execute the query
-    cur.execute("SELECT cities.name FROM cities INNER JOIN states ON cities.state_id = states.id WHERE states.name = %s", (sys.argv[4],))
+    cur.execute("""SELECT cities.name FROM cities INNER JOIN\
+                states ON cities.state_id = states.id\
+                WHERE states.name = %s""", (sys.argv[4],))
     
     # Fetch all the results
     rows = cur.fetchall()
