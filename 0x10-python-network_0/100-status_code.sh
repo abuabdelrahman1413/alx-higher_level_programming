@@ -1,3 +1,3 @@
 #!/bin/bash
 # script print the status code of a request
-curl -s -o /dev/null -w "%{http_code}" "$1"
+curl "${1}" -s -w "%{http_code}" --output /dev/null
